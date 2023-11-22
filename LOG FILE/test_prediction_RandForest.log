@@ -1,0 +1,39 @@
+Fitting 10 folds for each of 1 candidates, totalling 10 fits
+[CV] END clf__criterion=entropy, clf__max_depth=20, clf__n_estimators=200; total time= 3.9min
+[CV] END clf__criterion=entropy, clf__max_depth=20, clf__n_estimators=200; total time= 3.9min
+[CV] END clf__criterion=entropy, clf__max_depth=20, clf__n_estimators=200; total time= 4.0min
+[CV] END clf__criterion=entropy, clf__max_depth=20, clf__n_estimators=200; total time= 3.9min
+[CV] END clf__criterion=entropy, clf__max_depth=20, clf__n_estimators=200; total time= 4.0min
+[CV] END clf__criterion=entropy, clf__max_depth=20, clf__n_estimators=200; total time= 4.0min
+[CV] END clf__criterion=entropy, clf__max_depth=20, clf__n_estimators=200; total time= 4.1min
+[CV] END clf__criterion=entropy, clf__max_depth=20, clf__n_estimators=200; total time= 4.1min
+[CV] END clf__criterion=entropy, clf__max_depth=20, clf__n_estimators=200; total time= 4.1min
+[CV] END clf__criterion=entropy, clf__max_depth=20, clf__n_estimators=200; total time= 4.1min
+
+Classification Report:
+                      precision    recall  f1-score   support
+
+        credit_card       0.69      0.77      0.73      3035
+   credit_reporting       0.94      0.86      0.90     17779
+    debt_collection       0.72      0.77      0.75      4514
+mortgages_and_loans       0.76      0.86      0.81      3703
+     retail_banking       0.75      0.88      0.81      2639
+
+           accuracy                           0.84     31670
+          macro avg       0.77      0.83      0.80     31670
+       weighted avg       0.85      0.84      0.84     31670
+
+
+Confusion Matrix:
+ [[ 2346   147    89   101   352]
+ [  585 15251  1117   627   199]
+ [  161   539  3493   230    91]
+ [   90   178   115  3203   117]
+ [  197    31    30    68  2313]]
+
+Accuracy Score:
+ 0.8401010419955794
+
+Predicted Labels:
+ ['debt_collection' 'mortgages_and_loans' 'mortgages_and_loans' ...
+ 'credit_reporting' 'debt_collection' 'credit_reporting']

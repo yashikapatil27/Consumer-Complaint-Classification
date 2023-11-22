@@ -1,0 +1,39 @@
+Fitting 10 folds for each of 1 candidates, totalling 10 fits
+[CV] END clf__multi_class=ovr, clf__penalty=none, clf__solver=saga; total time=13.1min
+[CV] END clf__multi_class=ovr, clf__penalty=none, clf__solver=saga; total time=13.3min
+[CV] END clf__multi_class=ovr, clf__penalty=none, clf__solver=saga; total time=13.5min
+[CV] END clf__multi_class=ovr, clf__penalty=none, clf__solver=saga; total time=13.6min
+[CV] END clf__multi_class=ovr, clf__penalty=none, clf__solver=saga; total time=13.6min
+[CV] END clf__multi_class=ovr, clf__penalty=none, clf__solver=saga; total time=13.7min
+[CV] END clf__multi_class=ovr, clf__penalty=none, clf__solver=saga; total time=13.8min
+[CV] END clf__multi_class=ovr, clf__penalty=none, clf__solver=saga; total time=13.8min
+[CV] END clf__multi_class=ovr, clf__penalty=none, clf__solver=saga; total time=14.1min
+[CV] END clf__multi_class=ovr, clf__penalty=none, clf__solver=saga; total time=15.0min
+
+Classification Report:
+                      precision    recall  f1-score   support
+
+        credit_card       0.81      0.75      0.78      3035
+   credit_reporting       0.88      0.94      0.91     17779
+    debt_collection       0.79      0.67      0.72      4514
+mortgages_and_loans       0.86      0.80      0.83      3703
+     retail_banking       0.87      0.86      0.86      2639
+
+           accuracy                           0.86     31670
+          macro avg       0.84      0.80      0.82     31670
+       weighted avg       0.86      0.86      0.86     31670
+
+
+Confusion Matrix:
+ [[ 2272   437    83    40   203]
+ [  190 16729   559   267    34]
+ [   97  1253  3004   119    41]
+ [   73   501   109  2945    75]
+ [  179   128    25    37  2270]]
+
+Accuracy Score:
+ 0.8594884748973792
+
+Predicted Labels:
+ ['credit_reporting' 'mortgages_and_loans' 'mortgages_and_loans' ...
+ 'credit_reporting' 'credit_reporting' 'credit_reporting']

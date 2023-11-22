@@ -1,0 +1,39 @@
+Fitting 10 folds for each of 1 candidates, totalling 10 fits
+
+Classification Report:
+                      precision    recall  f1-score   support
+
+        credit_card       0.59      0.79      0.68      3035
+   credit_reporting       0.94      0.77      0.85     17779
+    debt_collection       0.65      0.71      0.68      4514
+mortgages_and_loans       0.66      0.89      0.76      3703
+     retail_banking       0.76      0.91      0.83      2639
+
+           accuracy                           0.79     31670
+          macro avg       0.72      0.81      0.76     31670
+       weighted avg       0.82      0.79      0.79     31670
+
+
+Confusion Matrix:
+ [[ 2383   142    53    93   364]
+ [ 1100 13683  1580  1222   194]
+ [  266   598  3200   344   106]
+ [   96   132    74  3305    96]
+ [  169     6    12    53  2399]]
+
+Accuracy Score:
+ 0.7884433217556047
+
+Predicted Labels:
+ ['debt_collection' 'mortgages_and_loans' 'mortgages_and_loans' ...
+ 'credit_reporting' 'credit_card' 'credit_card']
+[CV] END ............clf__alpha=0.0001, clf__fit_prior=False; total time= 5.8min
+[CV] END ............clf__alpha=0.0001, clf__fit_prior=False; total time= 5.8min
+[CV] END ............clf__alpha=0.0001, clf__fit_prior=False; total time= 5.9min
+[CV] END ............clf__alpha=0.0001, clf__fit_prior=False; total time= 5.9min
+[CV] END ............clf__alpha=0.0001, clf__fit_prior=False; total time= 5.8min
+[CV] END ............clf__alpha=0.0001, clf__fit_prior=False; total time= 5.9min
+[CV] END ............clf__alpha=0.0001, clf__fit_prior=False; total time= 5.9min
+[CV] END ............clf__alpha=0.0001, clf__fit_prior=False; total time= 5.9min
+[CV] END ............clf__alpha=0.0001, clf__fit_prior=False; total time= 5.9min
+[CV] END ............clf__alpha=0.0001, clf__fit_prior=False; total time= 5.9min
