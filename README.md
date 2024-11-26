@@ -30,12 +30,12 @@ Consumer-Complaint-Classification/
 └── README.md                           # Project documentation
 ```
 
-** Phase 1 (Statistical Techniques): **
+**Phase 1 (Statistical Techniques):**
   - TF-IDF for feature extraction
   - Logistic Regression and Naive Bayes classifiers
   - Cross-validation for model evaluation
     
-** Phase 2 (Deep Learning Architecture): **
+**Phase 2 (Deep Learning Architecture):**
   - Pretrained word embeddings (GloVe, Word2Vec) or custom embeddings
   - CNN, RNN, LSTM, and Transformer architectures for text classification
   - Hyperparameter tuning and model optimization.
