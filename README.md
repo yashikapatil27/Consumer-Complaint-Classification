@@ -9,14 +9,14 @@ Consumer-Complaint-Classification/
 │
 ├── CODE/
 │   ├── phase1/
-│   │   ├── 1_data_cleaning.py            # Raw data cleaning and preparation
-│   │   ├── 2_eda.py                      # Exploratory Data Analysis (EDA)
-│   │   ├── 3_no_preprocess_no_tuning.py  # Baseline model without preprocessing or tuning
-│   │   ├── 4_pre-processing.py           # Text preprocessing and feature extraction
-│   │   ├── 5_preprocess_no_tuning.py    # Preprocessing without hyperparameter tuning
+│   │   ├── 1_data_cleaning.py               # Raw data cleaning and preparation
+│   │   ├── 2_eda.py                         # Exploratory Data Analysis (EDA)
+│   │   ├── 3_no_preprocess_no_tuning.py     # Baseline model without preprocessing or tuning
+│   │   ├── 4_pre-processing.py              # Text preprocessing and feature extraction
+│   │   ├── 5_preprocess_no_tuning.py        # Preprocessing without hyperparameter tuning
 │   │   ├── 6_hyperparameter_gridsearchcv.py # Hyperparameter tuning using GridSearchCV
-│   │   ├── 7_test_prediction.py          # Testing and generating predictions
-│   │   └── main_phase1.py                # Main file for Phase 1 (Training and evaluation)
+│   │   ├── 7_test_prediction.py             # Testing and generating predictions
+│   │   └── main_phase1.py                   # Main file for Phase 1 (Training and evaluation)
 │   │
 │   └── phase2/
 │       ├── 8_StackedRNN.py              # Stacked RNN model
