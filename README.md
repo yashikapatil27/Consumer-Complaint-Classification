@@ -19,10 +19,10 @@ Consumer-Complaint-Classification/
 │   │   └── main_phase1.py                # Main file for Phase 1 (Training and evaluation)
 │   │
 │   └── phase2/
-│       ├── 10_Feedforward.py             # Feedforward neural network model
-│       ├── 11_Transformer.py             # Transformer model
 │       ├── 8_StackedRNN.py              # Stacked RNN model
 │       ├── 9_StackedLSTM.py             # Stacked LSTM model
+│       ├── 10_Feedforward.py            # Feedforward neural network model
+│       ├── 11_Transformer.py            # Transformer model
 │       └── main_phase2.py               # Main file for Phase 2 (Training and evaluation)
 │
 ├── LOG FILE/                           # Folder for logging model training progress and results
